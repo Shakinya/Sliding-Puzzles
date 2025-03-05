@@ -1,1 +1,3 @@
 # Sliding-Puzzles
+
+ALGORITHM BFS
