@@ -1,54 +1,97 @@
 # Sliding-Puzzles
 
-# Student Progress Tracker 🎓
+# Sliding Puzzles Solver 🧩
 
-This project is a **Student Progress Tracker** that evaluates students' academic progress based on their credit scores in pass, defer, and fail categories. The system categorizes students into different outcomes and provides a histogram representation.
+A Java-based application to simulate or solve sliding puzzle problems. This project allows you to parse puzzle inputs, apply algorithmic logic, and observe how puzzles are solved or analyzed.
 
 ---
 
 ## 📌 Overview
 
-- Validates user input to ensure correct credit entry
-- Categorizes students based on pass, defer, and fail credits
-- Displays real-time results and outcome histogram
-- Saves outcomes to a file
-- Uses a dictionary to store individual student records
+This project focuses on implementing sliding puzzle logic in Java. It includes:
+
+- Parsing puzzle data
+- Choosing algorithms to process puzzles
+- Handling and analyzing outcomes
+- Includes a report explaining the logic used
 
 ---
 
 ## ✨ Features
 
-### ✅ User Input Validation
-- Accepts only integers
-- Accepts only valid credit values: `0`, `20`, `40`, ..., `120`
-
-### 🎯 Categorization of Student Progress
-- **Progress**: 120 pass credits  
-- **Progress (Module trailer)**: 100 pass credits  
-- **Module retriever**: 60 or 80 pass credits  
-- **Exclude**: 80 or more fail credits
-
-### 💾 Data Storage & Output
-- Displays results in real-time
-- Generates a vertical histogram of outcomes
-- Saves results in `20222163_shakinya.txt`
-- Uses a Python dictionary (`student_dict`) to store all student records
+- 📥 Input parsing using a custom parser
+- 🧠 Algorithm selection and execution
+- 🖥️ Console-based output and progress
+- 📄 Includes a PDF (`Shai_Algo.pdf`) with algorithm explanation
+- 🧪 Organized as an IntelliJ IDEA project for easy development
 
 ---
 
-## 🛠️ Installation & Setup
+## 🗂️ Project Structure
 
-### ✅ Prerequisites
-- Python 3.x installed
+Sliding_puzzles/
+├── src/
+│ ├── main.java # Main program entry
+│ ├── algo_choosed.java # Logic or algorithm module
+│ └── parser.java # Input parsing logic
+├── Shai_Algo.pdf # Report or algorithm explanation
+├── Sliding_puzzles.iml # IntelliJ project file
+└── .gitignore
 
-### ▶️ Running the Program
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/student-progress-tracker.git
+yaml
+Copy
+Edit
 
-# Navigate into the project folder
-cd student-progress-tracker
+---
 
-# Run the tracker script
-python progress_tracker.py
+## 🛠 Installation & Setup
+
+### Prerequisites
+
+- Java 8 or above
+- (Optional) IntelliJ IDEA for running the `.iml` project
+
+### Running the Program
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/sliding-puzzles.git
+Navigate to the source folder:
+
+bash
+Copy
+Edit
+cd sliding-puzzles/src
+Compile the Java files:
+
+bash
+Copy
+Edit
+javac *.java
+Run the main program:
+
+bash
+Copy
+Edit
+java main
+📄 Documentation
+Refer to Shai_Algo.pdf in the root directory for a detailed explanation of the algorithm and the approach used to solve the puzzles.
+
+🤝 Contributing
+Fork the repository
+
+Create a new branch:
+
+bash
+Copy
+Edit
+git checkout -b feature-branch
+Make your changes and commit:
+
+bash
+Copy
+Edit
+git commit -m "Add new feature"
+Push and create a pull request.
+
 
