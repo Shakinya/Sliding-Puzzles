@@ -38,9 +38,6 @@ Sliding_puzzles/
 ├── Sliding_puzzles.iml # IntelliJ project file
 └── .gitignore
 
-yaml
-Copy
-Edit
 
 ---
 
