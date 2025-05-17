@@ -1,94 +1,71 @@
-# Sliding-Puzzles
+# 🧩 Sliding Puzzle Solver – Algorithm Design Project
 
-# Sliding Puzzles Solver 🧩
-
-A Java-based application to simulate or solve sliding puzzle problems. This project allows you to parse puzzle inputs, apply algorithmic logic, and observe how puzzles are solved or analyzed.
+This is a Java-based project developed for solving sliding puzzles (e.g., 8-puzzle, 15-puzzle). It demonstrates the use of algorithmic strategies, particularly search algorithms, to efficiently find the solution path in a classic tile-based problem.
 
 ---
 
-## 📌 Overview
+## 📁 Project Structure
 
-This project focuses on implementing sliding puzzle logic in Java. It includes:
-
-- Parsing puzzle data
-- Choosing algorithms to process puzzles
-- Handling and analyzing outcomes
-- Includes a report explaining the logic used
-
----
-
-## ✨ Features
-
-- 📥 Input parsing using a custom parser
-- 🧠 Algorithm selection and execution
-- 🖥️ Console-based output and progress
-- 📄 Includes a PDF (`Shai_Algo.pdf`) with algorithm explanation
-- 🧪 Organized as an IntelliJ IDEA project for easy development
-
----
-
-## 🗂️ Project Structure
-
-Sliding_puzzles/
-├── src/
-│ ├── main.java # Main program entry
-│ ├── algo_choosed.java # Logic or algorithm module
-│ └── parser.java # Input parsing logic
-├── Shai_Algo.pdf # Report or algorithm explanation
+Algo/
+└── Sliding_puzzles/
+├── .git/ # Git version control metadata
 ├── Sliding_puzzles.iml # IntelliJ project file
-└── .gitignore
-
+├── Shai_Algo.pdf # Project report
+└── src/ # Java source code (assumed)
 
 ---
 
-## 🛠 Installation & Setup
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Java 8 or above
-- (Optional) IntelliJ IDEA for running the `.iml` project
+- Java Development Kit (JDK 8 or higher)
+- IntelliJ IDEA (or any preferred Java IDE)
 
-### Running the Program
+### Instructions
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/sliding-puzzles.git
-Navigate to the source folder:
+1. Clone or download the repository.
+2. Open the project in IntelliJ IDEA (`Sliding_puzzles.iml` will help import settings).
+3. Navigate to the `src` folder to locate the main class.
+4. Run the program to input the puzzle and observe the solution.
 
-bash
-Copy
-Edit
-cd sliding-puzzles/src
-Compile the Java files:
+---
 
-bash
-Copy
-Edit
-javac *.java
-Run the main program:
+## 🔍 Features
 
-bash
-Copy
-Edit
-java main
-📄 Documentation
-Refer to Shai_Algo.pdf in the root directory for a detailed explanation of the algorithm and the approach used to solve the puzzles.
+- Solves sliding puzzles using search algorithms (e.g., A*, BFS)
+- Outputs step-by-step solution
+- Designed with clean object-oriented principles
+- Can be extended to larger puzzle sizes
 
-🤝 Contributing
-Fork the repository
+---
 
-Create a new branch:
+## 📑 Documentation
 
-bash
-Copy
-Edit
-git checkout -b feature-branch
-Make your changes and commit:
+The file `Shai_Algo.pdf` contains:
 
-bash
-Copy
-Edit
-git commit -m "Add new feature"
-Push and create a pull request.
+- Problem definition
+- Algorithm analysis
+- Time and space complexity
+- Sample inputs/outputs
+- Screenshots or visual explanation (if included)
 
+---
 
+## 👨‍💻 Author
+
+- **Name**: Shakinya (Shai)
+
+---
+
+## 📜 License
+
+This project is intended for educational purposes. Reuse is permitted with proper credit.
+
+---
+
+## 🧠 Acknowledgments
+
+- Algorithm Design and Analysis course
+- Java Documentation
+- Educational references on search algorithms
